@@ -7,7 +7,14 @@ To download all files, click the <i>Clone or download</i> drop down arrow and se
 
 
 <b>Data sets (in no particular order)</b><br />
-The <b>Energy Level.csv</b> data set is a simulated data set that was created to be used in an independent t-test and compared two groups, Group A and Group B, on some outcome measure. The values range 1-10 and can represent anything that fits within that scale.
+The <b>Energy Level.csv</b> data set is a simulated data set that was created to be used in an independent t-test and compared two groups, Group A and Group B, on some outcome measure. The values range 1-10 and can represent anything that fits within that scale. It was created using the following Python code:
+
+np.random.seed(12345678)
+
+df = pd.DataFrame(np.random.randint(10, size= (100, 2)),
+                  columns= ['Group A', 'Group B'])
+
+df.to_csv("Energy Level.csv", index= False)
 
 The <b>automotive_data.csv</b> file was downloaded from Kaggle.com from the user Ramakrishnan Srinivasan; the link to the full page is here: https://www.kaggle.com/toramky/automobile-dataset
 
