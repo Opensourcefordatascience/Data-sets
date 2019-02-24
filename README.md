@@ -7,6 +7,8 @@ To download all files, click the <i>Clone or download</i> drop down arrow and se
 
 
 <b>Data sets (in no particular order)</b><br />
+The <b>Energy Level.csv</b> data set is a simulated data set that was created to be used in an independent t-test and compared two groups, Group A and Group B, on some outcome measure. The values range 1-10 and can represent anything that fits within that scale.
+
 The <b>automotive_data.csv</b> file was downloaded from Kaggle.com from the user Ramakrishnan Srinivasan; the link to the full page is here: https://www.kaggle.com/toramky/automobile-dataset
 
 The <b>responses.csv</b> file was downloaded from Kaggle.com from the user Miroslav Sabo; the link to the full page is here: https://www.kaggle.com/miroslavsabo/young-people-survey. The "Participant Number" column is not part of the original data set. This was added to show examples on how to merge.
